@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43170FFD99DE44339AEEAD18 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D81C00177684082B27309CB /* libPods.a */; };
+		FCD783AB1996EB24003A7EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD783AA1996EB24003A7EDA /* Foundation.framework */; };
+		FCD783AD1996EB24003A7EDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD783AC1996EB24003A7EDA /* CoreGraphics.framework */; };
+		FCD783AF1996EB24003A7EDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD783AE1996EB24003A7EDA /* UIKit.framework */; };
+		FCD783B51996EB24003A7EDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCD783B31996EB24003A7EDA /* InfoPlist.strings */; };
+		FCD783B71996EB24003A7EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD783B61996EB24003A7EDA /* main.m */; };
+		FCD783BB1996EB24003A7EDA /* WHOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD783BA1996EB24003A7EDA /* WHOAppDelegate.m */; };
+		FCD783BD1996EB24003A7EDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD783BC1996EB24003A7EDA /* Images.xcassets */; };
+		FCD783C41996EB25003A7EDA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD783C31996EB25003A7EDA /* XCTest.framework */; };
+		FCD783C51996EB25003A7EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD783AA1996EB24003A7EDA /* Foundation.framework */; };
+		FCD783C61996EB25003A7EDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD783AE1996EB24003A7EDA /* UIKit.framework */; };
+		FCD783CE1996EB25003A7EDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCD783CC1996EB25003A7EDA /* InfoPlist.strings */; };
+		FCD783D01996EB25003A7EDA /* make_me_laughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD783CF1996EB25003A7EDA /* make_me_laughTests.m */; };
+		FCE3F896199840E000C1EB38 /* WHOJokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE3F895199840E000C1EB38 /* WHOJokeModel.m */; };
+		FCE3F8A1199859C000C1EB38 /* WHOJokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE3F89F199859C000C1EB38 /* WHOJokeViewController.m */; };
+		FCE3F8A719985D1300C1EB38 /* WHOJokeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE3F8A619985D1300C1EB38 /* WHOJokeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD783C71996EB25003A7EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD7839F1996EB24003A7EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD783A61996EB24003A7EDA;
+			remoteInfo = make_me_laugh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D81C00177684082B27309CB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1779F64F102466D868E8587 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FCD783A71996EB24003A7EDA /* make_me_laugh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = make_me_laugh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD783AA1996EB24003A7EDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCD783AC1996EB24003A7EDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCD783AE1996EB24003A7EDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCD783B21996EB24003A7EDA /* make_me_laugh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "make_me_laugh-Info.plist"; sourceTree = "<group>"; };
+		FCD783B41996EB24003A7EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCD783B61996EB24003A7EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCD783B81996EB24003A7EDA /* make_me_laugh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "make_me_laugh-Prefix.pch"; sourceTree = "<group>"; };
+		FCD783B91996EB24003A7EDA /* WHOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHOAppDelegate.h; sourceTree = "<group>"; };
+		FCD783BA1996EB24003A7EDA /* WHOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHOAppDelegate.m; sourceTree = "<group>"; };
+		FCD783BC1996EB24003A7EDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCD783C21996EB25003A7EDA /* make_me_laughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = make_me_laughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD783C31996EB25003A7EDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCD783CB1996EB25003A7EDA /* make_me_laughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "make_me_laughTests-Info.plist"; sourceTree = "<group>"; };
+		FCD783CD1996EB25003A7EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCD783CF1996EB25003A7EDA /* make_me_laughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = make_me_laughTests.m; sourceTree = "<group>"; };
+		FCE3F894199840E000C1EB38 /* WHOJokeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHOJokeModel.h; sourceTree = "<group>"; };
+		FCE3F895199840E000C1EB38 /* WHOJokeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHOJokeModel.m; sourceTree = "<group>"; };
+		FCE3F89E199859C000C1EB38 /* WHOJokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHOJokeViewController.h; path = ../WHOJokeViewController.h; sourceTree = "<group>"; };
+		FCE3F89F199859C000C1EB38 /* WHOJokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHOJokeViewController.m; path = ../WHOJokeViewController.m; sourceTree = "<group>"; };
+		FCE3F8A519985D1300C1EB38 /* WHOJokeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHOJokeView.h; path = ../WHOJokeView.h; sourceTree = "<group>"; };
+		FCE3F8A619985D1300C1EB38 /* WHOJokeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHOJokeView.m; path = ../WHOJokeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD783A41996EB24003A7EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD783AD1996EB24003A7EDA /* CoreGraphics.framework in Frameworks */,
+				FCD783AF1996EB24003A7EDA /* UIKit.framework in Frameworks */,
+				FCD783AB1996EB24003A7EDA /* Foundation.framework in Frameworks */,
+				43170FFD99DE44339AEEAD18 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD783BF1996EB25003A7EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD783C41996EB25003A7EDA /* XCTest.framework in Frameworks */,
+				FCD783C61996EB25003A7EDA /* UIKit.framework in Frameworks */,
+				FCD783C51996EB25003A7EDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD7839E1996EB24003A7EDA = {
+			isa = PBXGroup;
+			children = (
+				FCD783B01996EB24003A7EDA /* make_me_laugh */,
+				FCD783C91996EB25003A7EDA /* make_me_laughTests */,
+				FCD783A91996EB24003A7EDA /* Frameworks */,
+				FCD783A81996EB24003A7EDA /* Products */,
+				B1779F64F102466D868E8587 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD783A81996EB24003A7EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD783A71996EB24003A7EDA /* make_me_laugh.app */,
+				FCD783C21996EB25003A7EDA /* make_me_laughTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD783A91996EB24003A7EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCD783AA1996EB24003A7EDA /* Foundation.framework */,
+				FCD783AC1996EB24003A7EDA /* CoreGraphics.framework */,
+				FCD783AE1996EB24003A7EDA /* UIKit.framework */,
+				FCD783C31996EB25003A7EDA /* XCTest.framework */,
+				6D81C00177684082B27309CB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCD783B01996EB24003A7EDA /* make_me_laugh */ = {
+			isa = PBXGroup;
+			children = (
+				FCD783B91996EB24003A7EDA /* WHOAppDelegate.h */,
+				FCD783BA1996EB24003A7EDA /* WHOAppDelegate.m */,
+				FCE3F894199840E000C1EB38 /* WHOJokeModel.h */,
+				FCE3F895199840E000C1EB38 /* WHOJokeModel.m */,
+				FCE3F8A519985D1300C1EB38 /* WHOJokeView.h */,
+				FCE3F8A619985D1300C1EB38 /* WHOJokeView.m */,
+				FCE3F89E199859C000C1EB38 /* WHOJokeViewController.h */,
+				FCE3F89F199859C000C1EB38 /* WHOJokeViewController.m */,
+				FCD783BC1996EB24003A7EDA /* Images.xcassets */,
+				FCD783B11996EB24003A7EDA /* Supporting Files */,
+			);
+			path = make_me_laugh;
+			sourceTree = "<group>";
+		};
+		FCD783B11996EB24003A7EDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD783B21996EB24003A7EDA /* make_me_laugh-Info.plist */,
+				FCD783B31996EB24003A7EDA /* InfoPlist.strings */,
+				FCD783B61996EB24003A7EDA /* main.m */,
+				FCD783B81996EB24003A7EDA /* make_me_laugh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCD783C91996EB25003A7EDA /* make_me_laughTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD783CF1996EB25003A7EDA /* make_me_laughTests.m */,
+				FCD783CA1996EB25003A7EDA /* Supporting Files */,
+			);
+			path = make_me_laughTests;
+			sourceTree = "<group>";
+		};
+		FCD783CA1996EB25003A7EDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD783CB1996EB25003A7EDA /* make_me_laughTests-Info.plist */,
+				FCD783CC1996EB25003A7EDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD783A61996EB24003A7EDA /* make_me_laugh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD783D31996EB25003A7EDA /* Build configuration list for PBXNativeTarget "make_me_laugh" */;
+			buildPhases = (
+				48024B427EB64124837D1FFC /* Check Pods Manifest.lock */,
+				FCD783A31996EB24003A7EDA /* Sources */,
+				FCD783A41996EB24003A7EDA /* Frameworks */,
+				FCD783A51996EB24003A7EDA /* Resources */,
+				F8F75036D64C4C13BA216A3F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = make_me_laugh;
+			productName = make_me_laugh;
+			productReference = FCD783A71996EB24003A7EDA /* make_me_laugh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD783C11996EB25003A7EDA /* make_me_laughTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD783D61996EB25003A7EDA /* Build configuration list for PBXNativeTarget "make_me_laughTests" */;
+			buildPhases = (
+				FCD783BE1996EB25003A7EDA /* Sources */,
+				FCD783BF1996EB25003A7EDA /* Frameworks */,
+				FCD783C01996EB25003A7EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD783C81996EB25003A7EDA /* PBXTargetDependency */,
+			);
+			name = make_me_laughTests;
+			productName = make_me_laughTests;
+			productReference = FCD783C21996EB25003A7EDA /* make_me_laughTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD7839F1996EB24003A7EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WHO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = whoisdylan;
+				TargetAttributes = {
+					FCD783C11996EB25003A7EDA = {
+						TestTargetID = FCD783A61996EB24003A7EDA;
+					};
+				};
+			};
+			buildConfigurationList = FCD783A21996EB24003A7EDA /* Build configuration list for PBXProject "make_me_laugh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCD7839E1996EB24003A7EDA;
+			productRefGroup = FCD783A81996EB24003A7EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD783A61996EB24003A7EDA /* make_me_laugh */,
+				FCD783C11996EB25003A7EDA /* make_me_laughTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD783A51996EB24003A7EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD783B51996EB24003A7EDA /* InfoPlist.strings in Resources */,
+				FCD783BD1996EB24003A7EDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD783C01996EB25003A7EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD783CE1996EB25003A7EDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48024B427EB64124837D1FFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F75036D64C4C13BA216A3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD783A31996EB24003A7EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE3F8A1199859C000C1EB38 /* WHOJokeViewController.m in Sources */,
+				FCD783B71996EB24003A7EDA /* main.m in Sources */,
+				FCE3F896199840E000C1EB38 /* WHOJokeModel.m in Sources */,
+				FCD783BB1996EB24003A7EDA /* WHOAppDelegate.m in Sources */,
+				FCE3F8A719985D1300C1EB38 /* WHOJokeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD783BE1996EB25003A7EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD783D01996EB25003A7EDA /* make_me_laughTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD783C81996EB25003A7EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD783A61996EB24003A7EDA /* make_me_laugh */;
+			targetProxy = FCD783C71996EB25003A7EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCD783B31996EB24003A7EDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD783B41996EB24003A7EDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCD783CC1996EB25003A7EDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD783CD1996EB25003A7EDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD783D11996EB25003A7EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCD783D21996EB25003A7EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD783D41996EB25003A7EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1779F64F102466D868E8587 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "make_me_laugh/make_me_laugh-Prefix.pch";
+				INFOPLIST_FILE = "make_me_laugh/make_me_laugh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCD783D51996EB25003A7EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1779F64F102466D868E8587 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "make_me_laugh/make_me_laugh-Prefix.pch";
+				INFOPLIST_FILE = "make_me_laugh/make_me_laugh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCD783D71996EB25003A7EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/make_me_laugh.app/make_me_laugh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "make_me_laugh/make_me_laugh-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "make_me_laughTests/make_me_laughTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FCD783D81996EB25003A7EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/make_me_laugh.app/make_me_laugh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "make_me_laugh/make_me_laugh-Prefix.pch";
+				INFOPLIST_FILE = "make_me_laughTests/make_me_laughTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD783A21996EB24003A7EDA /* Build configuration list for PBXProject "make_me_laugh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD783D11996EB25003A7EDA /* Debug */,
+				FCD783D21996EB25003A7EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD783D31996EB25003A7EDA /* Build configuration list for PBXNativeTarget "make_me_laugh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD783D41996EB25003A7EDA /* Debug */,
+				FCD783D51996EB25003A7EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD783D61996EB25003A7EDA /* Build configuration list for PBXNativeTarget "make_me_laughTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD783D71996EB25003A7EDA /* Debug */,
+				FCD783D81996EB25003A7EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD7839F1996EB24003A7EDA /* Project object */;
+}

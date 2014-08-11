@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4FA0A47A-DADA-41FA-B01C-1DADC548B16B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>make_me_laugh</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>460DF862-BF07-42A9-9CCA-B2BC1026365F</key>
+		<string>https://github.com/whoisdylan/make_me_laugh.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>make_me_laugh.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>460DF862-BF07-42A9-9CCA-B2BC1026365F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/whoisdylan/make_me_laugh.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>460DF862-BF07-42A9-9CCA-B2BC1026365F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>460DF862-BF07-42A9-9CCA-B2BC1026365F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>make_me_laugh</string>
+		</dict>
+	</array>
+</dict>
+</plist>
